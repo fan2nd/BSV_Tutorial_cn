@@ -370,7 +370,7 @@ Chisel 和 SpinalHDL 也可以归类为高级硬件描述语言（HL-HDL）。�
 
 ## <span id="head12">3.1 安装 bsc 编译器</span>
 
-BSV 的编译器 bsc 是以源码的形式发布在[Bluespec官方bsc仓库](https://github.com/B-Lang-org/bsc)的，并未提供编译好的可执行文件。不过，笔者帮你们编译好了，它在本仓库的 **bsc-build.tar.gz** 压缩包中。（笔者是在 **Ubuntu 16.04 (x86_64)** 中编译它的，复制到 WSL 上发现也能工作）
+BSV 的编译器 bsc 是以源码的形式发布在[Bluespec官方bsc仓库](https://github.com/B-Lang-org/bsc)的，并提供常用发行版的编译好的可执行文件。也可以使用本仓库 **bsc-build.tar.gz** 压缩包中的二进制文件。（笔者是在 **Ubuntu 16.04 (x86_64)** 中编译它的，复制到 WSL 上发现也能工作）
 
 首先进入 **bsc-build.tar.gz** 所在的目录的命令行，运行以下命令把 **bsc-build.tar.gz** 复制到你想安装的位置并解压，例如你想把它安装在 `/opt` 目录下：
 
